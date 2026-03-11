@@ -97,7 +97,7 @@ let discordSdk;
 async function initDiscordActivity() {
   try {
     // ERSETZE DIES MIT DER CLIENT ID AUS DEM DISCORD DEVELOPER PORTAL
-    discordSdk = new DiscordSDK("DEINE_CLIENT_ID_HIER"); 
+    discordSdk = new DiscordSDK("1481387087776448656"); 
     await discordSdk.ready();
     console.log("Discord Activity ist bereit!");
   } catch (error) {
